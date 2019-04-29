@@ -1,4 +1,4 @@
-# Project 4: A Data Analysis of the Camp Fire
+# A Data Analysis of the Camp Fire
 
 ### Anne Kerr, Michel Elias, Hugo Delgado, Stephen Godfrey, DSI-CC7-San Francisco
 
