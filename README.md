@@ -10,7 +10,7 @@ Use data to quantify the Camp Fire to prototype models that could be employed du
 
 ### Executive Summary
 
-The Camp Fire was perhaps the most destructive recorded wildfire in California's history and was one of the world's most destructive natural disasters in 2018.  All totaled, it burned over 153,000 acres and destroyed over 13,500 structures [Camp Fire](https://en.wikipedia.org/wiki/Camp_Fire_(2018)) and [Cal Fire Incident](http://cdfdata.fire.ca.gov/incidents/incidents_details_newsreleases?incident_id=2277).  The fire began on November 8, 2018 and was not 100% contained until November 25, 2018.  During that time, the event was a social media and news topic of substantial interest, and it was widely covered on both media platforms.
+The Camp Fire was perhaps the most destructive recorded wildfire in California's history and was one of the world's most destructive natural disasters in 2018.  All totaled, it burned over 153,000 acres and destroyed over 13,500 structures ([Camp Fire](https://en.wikipedia.org/wiki/Camp_Fire_(2018)) and [Cal Fire Incident](http://cdfdata.fire.ca.gov/incidents/incidents_details_newsreleases?incident_id=2277)).  The fire began on November 8, 2018 and was not 100% contained until November 25, 2018.  During that time, the event was a social media and news topic of substantial interest, and it was widely covered on both media platforms.
 
 <img src="./images/CampFireMapNov20Tweets.png" alt="Process" width="600"/>
 
@@ -27,6 +27,10 @@ Our approach to modeling is to use three techniques of Natural Language Processi
 While this analysis was limited and exclusive to a single event, the Camp Fire, and the dataset was constructed after its conclusion, we find some useful results.  These resulting observations are helpful in prototyping and in setting a direction for further analysis, but the dataset needs to be expanded to include additional fire events and to incorporate information as it would actually be available during incidents before they can be considered conclusive.
 
 Key findings include
+
+* As expected, progression metrics are correlated with the size of a fire as measured by acreage,
+
+* Individually, tweet and news data do not offer much explanatory power in measuring the size of a fire,
 
 * Combining progression metrics such as fatalities and the number of affected structures with news and tweet data seem to provide better models for the size of the fire than simply using progression metrics alone suggesting that there is value in systematically monitoring such sources during the course of an event,
 
@@ -47,6 +51,11 @@ We believe that this approach would benefit from further analysis including
 * Obtaining data seen by emergency response teams as the disaster unfolds to further delineate the type and availability of information during the course of such events, 
 
 * Employing a wider range of models such as Bayesian Inference approaches to establish prior and posterior distributions of some of the key parameters.
+
+
+### Notebooks
+
+[Mapping](code/Mapping.ipynb)
 
 
 
