@@ -55,13 +55,13 @@ We believe that this approach would benefit from further analysis including
 
 ### Notebooks
 
-[Mapping](code/Mapping.ipynb)
-[News](code/News.ipynb)
-[Presentation charts](code/Presentation_charts.ipynb)
-[Progression modeling](code/Progression Modeling-Copy1.ipynb)
-[Text analysis](code/Text_analysis.ipynb)
-[Twitter](code/Twitter.ipynb)
-[Progression metrics](code/cal_fire_eda.ipynb)
+* [Mapping](code/Mapping.ipynb)
+* [News](code/News.ipynb)
+* [Presentation charts](code/Presentation_charts.ipynb)
+* [Progression modeling](code/Progression_Modeling-Copy1.ipynb)
+* [Text analysis](code/Text_analysis.ipynb)
+* [Twitter](code/Twitter.ipynb)
+* [Progression metrics](code/cal_fire_eda.ipynb)
 
 
 ### Data
